@@ -6,11 +6,22 @@
     height: auto;
 }
 
+.container {
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+}
+
+.showcase-wrapper {
+    height: 100%;
+    display: block;
+}
+
 .showcase {
-    position: absolute;
+    position: fixed;
     right: 0;
     width: 100%;
-    min-height: 100vh;
+    height: 100%;
     padding: 100px;
     display: flex;
     justify-content: space-between;
@@ -127,7 +138,7 @@
 
 .about {
     position: absolute;
-    height: 120vh;
+    height: 20vh;
 }
 
 /* MEDIA CSS */

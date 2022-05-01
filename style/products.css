@@ -1,0 +1,43 @@
+:root {
+    --white-light: rgba(255, 255, 255, 0.5);
+    --alice-blue: #f8f9fa;
+    --carabian-green: #40c9a2;
+    --gray: #ededed;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Utility styling */
+img {
+    width: 100%;
+    display: block;
+}
+
+.container {
+    width: 88vh;
+    margin: 0 auto;
+}
+
+.lg-title,
+.md-title,
+.sm-title {
+    padding: 0.6rem 0 ;
+    text-transform: capitalize;
+}
+
+.lg-title {
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-align: center;
+    padding: 1.3rem 0;
+    opacity: 0.9;
+}
+
