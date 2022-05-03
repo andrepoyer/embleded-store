@@ -6,6 +6,10 @@
     height: auto;
 }
 
+.product {
+    cursor: pointer;
+}
+
 .shadow-medium{
     transition: box-shadow 0.5s;
 }

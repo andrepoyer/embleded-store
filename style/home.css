@@ -141,7 +141,7 @@
     height: 20vh;
 }
 
-/* MEDIA CSS */
+/* MEDIA RESPONSIVE CSS */
 
 @media (max-width: 991px) {
     .showcase,
