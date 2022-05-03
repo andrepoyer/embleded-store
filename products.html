@@ -11,636 +11,521 @@
 </head>
 <body>
 
-    <nav class="bg-dark py-4">
-        <div class="text-center">
-            <a href="./home.html" class="text-light text-decoration-none h1 d-block">Home</a>
-            <a href="#" class="text-light text-decoration-none mx-2">Products</a>
-            <a href="./about-us.html" class="text-light text-decoration-none mx-2">About Us</a>
+    <nav class="bg-dark py-4 d-flex justify-content-between">
+        <div class="invisble-div"></div>
+        <div class="text-center text-white site-logo">
+            EMBLEDED
+        </div>
+        <div class="menu-dropdown">
+            <div class="toggle"></div>
+            <div class="dropdown-content">
+                <a href="home.html">Home</a>
+                <a href="products.html">Store</a>
+                <a href="about.html">About us</a>
+              </div>
         </div>
     </nav>
 
     <div class="container w-100 text-center mt-4 mb-3">
-        <h2 class="lg-title"> Products </h2>
+        <div class="title-products text-uppercase"> Products </div>
     </div>
 
     <div class="container w-50 text-center mb-5 mt-3">
-        <a href="#" class="d-inline-block mx-2 text-dark" onClick="showAll()">All</a>
-        <a href="#" class="d-inline-block mx-2 text-dark" onClick="showOnly('shoes')">Shoes</a>
-        <a href="#" class="d-inline-block mx-2 text-dark" onClick="showOnly('jackets')">Jackets</a>
-        <a href="#" class="d-inline-block mx-2 text-dark" onClick="showOnly('accessories')">Accessories</a>
-        <a href="#" class="d-inline-block mx-2 text-dark" onClick="showOnly('fragrances')">Fragrances</a>
-        <a href="#" class="d-inline-block mx-2 text-dark" onClick="showOnly('shirts')">Shirts</a>
-        <a href="#" class="d-inline-block mx-2 text-dark" onClick="showOnly('pants')">Pants</a>
+        <a href="#" class="d-inline-block mx-2 text-categories" onClick="showAll()">All</a>
+        <a href="#" class="d-inline-block mx-2 text-categories" onClick="showOnly('shoes')">Shoes</a>
+        <a href="#" class="d-inline-block mx-2 text-categories" onClick="showOnly('jackets')">Jackets</a>
+        <a href="#" class="d-inline-block mx-2 text-categories" onClick="showOnly('accessories')">Accessories</a>
+        <a href="#" class="d-inline-block mx-2 text-categories" onClick="showOnly('fragrances')">Fragrances</a>
+        <a href="#" class="d-inline-block mx-2 text-categories" onClick="showOnly('shirts')">Shirts</a>
+        <a href="#" class="d-inline-block mx-2 text-categories" onClick="showOnly('pants')">Pants</a>
     </div>
 
     <div class="container">
-        <div class="row mt-3 mb-3">
+        <div class="row mt-3 mb-3 justify-content-center">
 
-            <div class="col-sm">
-                <div class="w-100 product shadow-medium shoes p-4 border border-dark">
+            <div class="col-sm-3">
+                <div class="w-60 product shadow-medium shoes p-4">
                     <div class="product-img text-center">
                         <img src="img/shoes/sh_01_balenciaga.webp" class="img-thumbnail w-75" style="border: none;">
                     </div>
                     <div>
-                        <div class="mt-2 mb-2 text-success">
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                        </div>
-                        <h3>Text</h3>
-                        <p>R$ 0.000,00</p>
+                        <div>
+                        <div class="product-brand">Balenciaga</div>
+                        <div>Tenis Track</div>
+                        <div class="product-price pt-4">R$ 0.000,00</div>
+                    </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-sm">
-                <div class="w-100 product shadow-medium shoes p-4 border border-dark">
+            <div class="col-sm-3">
+                <div class="w-100 product shadow-medium shoes p-4">
                     <div class="product-img text-center">
                         <img src="img/shoes/sh_01_bottega.webp" class="img-thumbnail w-75" style="border: none;" alt="Lemaire Signature Leather Boots">
                     </div>
                     <div>
-                        <div class="mt-2 mb-2 text-success">
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                        </div>
-                        <h3>Text</h3>
-                        <p>R$ 0.000,00</p>
+                        <div>
+                        <div class="product-brand">Bottega Veneta</div>
+                        <div>Leather Boots</div>
+                        <div class="product-price pt-4">R$ 0.000,00</div>
+                    </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-sm">
-                <div class="w-100 product shadow-medium shoes p-4 border border-dark">
+            <div class="col-sm-3">
+                <div class="w-100 product shadow-medium shoes p-4">
                     <div class="product-img text-center">
                         <img src="img/shoes/sh_01_cdg.webp" class="img-thumbnail w-75" style="border: none;" alt="Lemaire Signature Leather Boots">
                     </div>
                     <div>
-                        <div class="mt-2 mb-2 text-success">
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                        </div>
-                        <h3>Text</h3>
-                        <p>R$ 0.000,00</p>
+                        <div>
+                        <div class="product-brand">Converse x cdg</div>
+                        <div>Chuck 70 cdg</div>
+                        <div class="product-price pt-4">R$ 0.000,00</div>
+                    </div>
                     </div>
                 </div>
             </div>
 
         </div> <!-- End Row -->
-        <div class="row mt-3 mb-3">
+        <div class="row mt-3 mb-3 justify-content-center">
 
-            <div class="col-sm">
-                <div class="w-100 product shadow-large shoes p-4 border border-dark">
+            <div class="col-sm-3">
+                <div class="w-100 product shadow-large shoes p-4">
                     <div class="product-img text-center">
                         <img src="img/shoes/sh_01_lamaire.jpg" class="img-thumbnail w-75" style="border: none;">
                     </div>
                     <div>
-                        <div class="mt-2 mb-2 text-success">
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                        </div>
-                        <h3>Text</h3>
-                        <p>R$ 0.000,00</p>
+                        <div class="product-brand">Lemaire</div>
+                        <div>Leather Boots</div>
+                        <div class="product-price pt-4">R$ 0.000,00</div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-sm">
-                <div class="w-100 product shadow-large shoes p-4 border border-dark">
+            <div class="col-sm-3">
+                <div class="w-100 product shadow-large shoes p-4">
                     <div class="product-img text-center">
                         <img src="img/shoes/sh_01_saintlaurent.webp" class="img-thumbnail w-75" style="border: none;" alt="Lemaire Signature Leather Boots">
                     </div>
                     <div>
-                        <div class="mt-2 mb-2 text-success">
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                        </div>
-                        <h3>Text</h3>
-                        <p>R$ 0.000,00</p>
+                        <div>
+                        <div class="product-brand">Saint Laurent</div>
+                        <div>Leather Boots</div>
+                        <div class="product-price pt-4">R$ 0.000,00</div>
+                    </div>
                     </div>
                 </div>
             </div>
 
         </div> <!-- End Row -->
-        <div class="row mt-3 mb-3">
+        <div class="row mt-3 mb-3 justify-content-center">
 
-            <div class="col-sm">
-                <div class="w-100 product shadow-medium shirts p-4 border border-dark">
+            <div class="col-sm-3">
+                <div class="w-100 product shadow-medium shirts p-4">
                     <div class="product-img text-center">
                         <img src="img/shirts/sh_01_amiri.webp" class="img-thumbnail w-75" style="border: none;">
                     </div>
                     <div>
-                        <div class="mt-2 mb-2 text-success">
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                        </div>
-                        <h3>Text</h3>
-                        <p>R$ 0.000,00</p>
+                        <div>
+                        <div class="product-brand">Amiri</div>
+                        <div>Leather Boots</div>
+                        <div class="product-price pt-4">R$ 0.000,00</div>
+                    </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-sm">
-                <div class="w-100 product shadow-medium shirts p-4 border border-dark">
+            <div class="col-sm-3">
+                <div class="w-100 product shadow-medium shirts p-4">
                     <div class="product-img text-center">
                         <img src="img/shirts/sh_01_bottega.webp" class="img-thumbnail w-75" style="border: none;" alt="Lemaire Signature Leather Boots">
                     </div>
                     <div>
-                        <div class="mt-2 mb-2 text-success">
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                        </div>
-                        <h3>Text</h3>
-                        <p>R$ 0.000,00</p>
+                        <div>
+                        <div class="product-brand">Bottega Veneta</div>
+                        <div>Leather Boots</div>
+                        <div class="product-price pt-4">R$ 0.000,00</div>
+                    </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-sm">
+            <div class="col-sm-3">
                 
-                <div class="w-100 product shadow-medium shirts p-4 border border-dark">
+                <div class="w-100 product shadow-medium shirts p-4">
                     <div class="product-img text-center">
                         <img src="img/shirts/sh_01_casablanca.webp" class="img-thumbnail w-75" style="border: none;">
                     </div>
                     <div>
-                        <div class="mt-2 mb-2 text-success">
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                        </div>
-                        <h3>Text</h3>
-                        <p>R$ 0.000,00</p>
+                        <div>
+                        <div class="product-brand">Casablanca</div>
+                        <div>Leather Boots</div>
+                        <div class="product-price pt-4">R$ 0.000,00</div>
+                    </div>
                     </div>
                 </div>
             </div>
 
         </div> <!-- End Row -->
-        <div class="row mt-3 mb-3">
+        <div class="row mt-3 mb-3 justify-content-center">
 
-            <div class="col-sm">
-                <div class="w-100 product shadow-medium shirts p-4 border border-dark">
+            <div class="col-sm-3">
+                <div class="w-100 product shadow-medium shirts p-4">
                     <div class="product-img text-center">
                         <img src="img/shirts/sh_01_cdg.webp" class="img-thumbnail w-75" style="border: none;">
                     </div>
                     <div>
-                        <div class="mt-2 mb-2 text-success">
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                        </div>
-                        <h3>Text</h3>
-                        <p>R$ 0.000,00</p>
+                        <div>
+                        <div class="product-brand">Comme des garçons</div>
+                        <div>Leather Boots</div>
+                        <div class="product-price pt-4">R$ 0.000,00</div>
+                    </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-sm">
-                <div class="w-100 product shadow-medium shirts p-4 border border-dark">
+            <div class="col-sm-3">
+                <div class="w-100 product shadow-medium shirts p-4">
                     <div class="product-img text-center">
                         <img src="img/shirts/sh_01_prada.webp" class="img-thumbnail w-75" style="border: none;" alt="Lemaire Signature Leather Boots">
                     </div>
                     <div>
-                        <div class="mt-2 mb-2 text-success">
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                        </div>
-                        <h3>Text</h3>
-                        <p>R$ 0.000,00</p>
+                        <div>
+                        <div class="product-brand">Prada</div>
+                        <div>Leather Boots</div>
+                        <div class="product-price pt-4">R$ 0.000,00</div>
+                    </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-sm">
-                <div class="w-100 product shadow-medium shirts p-4 border border-dark">
+            <div class="col-sm-3">
+                <div class="w-100 product shadow-medium shirts p-4">
                     <div class="product-img text-center">
                         <img src="img/shirts/sh_01_yzygap.jpg" class="img-thumbnail w-75" style="border: none;">
                     </div>
                     <div>
-                        <div class="mt-2 mb-2 text-success">
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                        </div>
-                        <h3>Text</h3>
-                        <p>R$ 0.000,00</p>
+                        <div>
+                        <div class="product-brand">Yeezy x GAP</div>
+                        <div>Leather Boots</div>
+                        <div class="product-price pt-4">R$ 0.000,00</div>
+                    </div>
                     </div>
                 </div>
             </div>
 
         </div> <!-- End Row -->
-        <div class="row mt-3 mb-3">
+        <div class="row mt-3 mb-3 justify-content-center">
 
-            <div class="col-sm">
-                <div class="w-100 product shadow-medium pants p-4 border border-dark">
+            <div class="col-sm-3">
+                <div class="w-100 product shadow-medium pants p-4">
                     <div class="product-img text-center">
                         <img src="img/pants/pt_01_acne.webp" class="img-thumbnail w-75" style="border: none;">
                     </div>
                     <div>
-                        <div class="mt-2 mb-2 text-success">
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                        </div>
-                        <h3>Text</h3>
-                        <p>R$ 0.000,00</p>
+                        <div>
+                        <div class="product-brand">Acne Studios</div>
+                        <div>Leather Boots</div>
+                        <div class="product-price pt-4">R$ 0.000,00</div>
+                    </div>
                     </div>
                 </div>
             </div>
             
-            <div class="col-sm">
-                <div class="w-100 product shadow-medium pants p-4 border border-dark">
+            <div class="col-sm-3">
+                <div class="w-100 product shadow-medium pants p-4">
                     <div class="product-img text-center">
                         <img src="img/pants/pt_01_jacquemus.jpg" class="img-thumbnail w-75" style="border: none;" alt="Lemaire Signature Leather Boots">
                     </div>
                     <div>
-                        <div class="mt-2 mb-2 text-success">
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                        </div>
-                        <h3>Text</h3>
-                        <p>R$ 0.000,00</p>
+                        <div>
+                        <div class="product-brand">Jacquemus</div>
+                        <div>Leather Boots</div>
+                        <div class="product-price pt-4">R$ 0.000,00</div>
+                    </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-sm">
-                <div class="w-100 product shadow-medium pants p-4 border border-dark">
+            <div class="col-sm-3">
+                <div class="w-100 product shadow-medium pants p-4">
                     <div class="product-img text-center">
                         <img src="img/pants/pt_01_marine.webp" class="img-thumbnail w-75" style="border: none;" alt="Lemaire Signature Leather Boots">
                     </div>
                     <div>
-                        <div class="mt-2 mb-2 text-success">
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                        </div>
-                        <h3>Text</h3>
-                        <p>R$ 0.000,00</p>
+                        <div>
+                        <div class="product-brand">Marine</div>
+                        <div>Leather Boots</div>
+                        <div class="product-price pt-4">R$ 0.000,00</div>
+                    </div>
                     </div>
                 </div>
             </div>
 
         </div> <!-- End Row -->
-        <div class="row mt-3 mb-3">
+        <div class="row mt-3 mb-3 justify-content-center">
 
-            <div class="col-sm">
-                <div class="w-100 product shadow-medium jackets p-4 border border-dark">
+            <div class="col-sm-3">
+                <div class="w-100 product shadow-medium jackets p-4">
                     <div class="product-img text-center">
                         <img src="img/jackets/ja_01_ami.jpg" class="img-thumbnail w-75" style="border: none;">
                     </div>
                     <div>
-                        <div class="mt-2 mb-2 text-success">
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                        </div>
-                        <h3>Text</h3>
-                        <p>R$ 0.000,00</p>
+                        <div>
+                        <div class="product-brand">Ami Paris</div>
+                        <div>Leather Boots</div>
+                        <div class="product-price pt-4">R$ 0.000,00</div>
+                    </div>
                     </div>
                 </div>
             </div>
             
-            <div class="col-sm">
-                <div class="w-100 product shadow-medium jackets p-4 border border-dark">
+            <div class="col-sm-3">
+                <div class="w-100 product shadow-medium jackets p-4">
                     <div class="product-img text-center">
                         <img src="img/jackets/ja_01_balenciaga.jpg" class="img-thumbnail w-75" style="border: none;" alt="Lemaire Signature Leather Boots">
                     </div>
                     <div>
-                        <div class="mt-2 mb-2 text-success">
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                        </div>
-                        <h3>Text</h3>
-                        <p>R$ 0.000,00</p>
+                        <div>
+                        <div class="product-brand">Balenciaga</div>
+                        <div>Leather Boots</div>
+                        <div class="product-price pt-4">R$ 0.000,00</div>
+                    </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-sm">
-                <div class="w-100 product shadow-medium jackets p-4 border border-dark">
+            <div class="col-sm-3">
+                <div class="w-100 product shadow-medium jackets p-4">
                     <div class="product-img text-center">
                         <img src="img/jackets/ja_01_lamaire.jpg" class="img-thumbnail w-75" style="border: none;" alt="Lemaire Signature Leather Boots">
                     </div>
                     <div>
-                        <div class="mt-2 mb-2 text-success">
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                        </div>
-                        <h3>Text</h3>
-                        <p>R$ 0.000,00</p>
+                        <div>
+                        <div class="product-brand">Lemaire</div>
+                        <div>Leather Boots</div>
+                        <div class="product-price pt-4">R$ 0.000,00</div>
+                    </div>
                     </div>
                 </div>
             </div>
 
         </div> <!-- End Row -->
-        <div class="row mt-3 mb-3">
+        <div class="row mt-3 mb-3 justify-content-center">
 
-            <div class="col-sm">
-                <div class="w-100 product shadow-medium jackets p-4 border border-dark">
+            <div class="col-sm-3">
+                <div class="w-100 product shadow-medium jackets p-4">
                     <div class="product-img text-center">
                         <img src="img/jackets/ja_01_lemaire_second.webp" class="img-thumbnail w-75" style="border: none;">
                     </div>
                     <div>
-                        <div class="mt-2 mb-2 text-success">
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                        </div>
-                        <h3>Text</h3>
-                        <p>R$ 0.000,00</p>
+                        <div>
+                        <div class="product-brand">Lemaire</div>
+                        <div>Leather Boots</div>
+                        <div class="product-price pt-4">R$ 0.000,00</div>
+                    </div>
                     </div>
                 </div>
             </div>
             
-            <div class="col-sm">
-                <div class="w-100 product shadow-medium jackets p-4 border border-dark">
+            <div class="col-sm-3">
+                <div class="w-100 product shadow-medium jackets p-4">
                     <div class="product-img text-center">
                         <img src="img/jackets/ja_01_prada.jpg" class="img-thumbnail w-75" style="border: none;" alt="Lemaire Signature Leather Boots">
                     </div>
                     <div>
-                        <div class="mt-2 mb-2 text-success">
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                        </div>
-                        <h3>Text</h3>
-                        <p>R$ 0.000,00</p>
+                        <div>
+                        <div class="product-brand">Prada</div>
+                        <div>Leather Boots</div>
+                        <div class="product-price pt-4">R$ 0.000,00</div>
+                    </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-sm">
-                <div class="w-100 product shadow-medium jackets p-4 border border-dark">
+            <div class="col-sm-3">
+                <div class="w-100 product shadow-medium jackets p-4">
                     <div class="product-img text-center">
                         <img src="img/jackets/ja_01_raf.jpg" class="img-thumbnail w-75" style="border: none;" alt="Lemaire Signature Leather Boots">
                     </div>
                     <div>
-                        <div class="mt-2 mb-2 text-success">
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                        </div>
-                        <h3>Text</h3>
-                        <p>R$ 0.000,00</p>
+                        <div>
+                        <div class="product-brand">Raf Simmons</div>
+                        <div>Leather Boots</div>
+                        <div class="product-price pt-4">R$ 0.000,00</div>
+                    </div>
                     </div>
                 </div>
             </div>
 
         </div> <!-- End Row -->
-        <div class="row mt-3 mb-3">
+        <div class="row mt-3 mb-3 justify-content-center">
 
-            <div class="col-sm">
-                <div class="w-100 product shadow-large fragrances p-4 border border-dark">
+            <div class="col-sm-3">
+                <div class="w-100 product shadow-large fragrances p-4">
                     <div class="product-img text-center">
                         <img src="img/fragrances/fg_01_bond.webp" class="img-thumbnail w-75" style="border: none;">
                     </div>
                     <div>
-                        <div class="mt-2 mb-2 text-success">
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                        </div>
-                        <h3>Text</h3>
-                        <p>R$ 0.000,00</p>
+                        <div>
+                        <div class="product-brand">Bond n.9</div>
+                        <div>New York Nights (50ml)</div>
+                        <div class="product-price pt-4">R$ 1.750,00</div>
+                    </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-sm">
-                <div class="w-100 product shadow-large fragrances p-4 border border-dark">
+            <div class="col-sm-3">
+                <div class="w-100 product shadow-large fragrances p-4">
                     <div class="product-img text-center">
                         <img src="img/fragrances/fg_01_creed.webp" class="img-thumbnail w-75" style="border: none;" alt="Lemaire Signature Leather Boots">
                     </div>
                     <div>
-                        <div class="mt-2 mb-2 text-success">
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                        </div>
-                        <h3>Text</h3>
-                        <p>R$ 0.000,00</p>
+                        <div>
+                        <div class="product-brand">Creed</div>
+                        <div>Creed Adventus (100ml)</div>
+                        <div class="product-price pt-4">R$ 3.300,00</div>
+                    </div>
                     </div>
                 </div>
             </div>
 
         </div> <!-- End Row -->
-        <div class="row mt-3 mb-3">
+        <div class="row mt-3 mb-3 justify-content-center">
 
-            <div class="col-sm">
-                <div class="w-100 product shadow-large fragrances p-4 border border-dark">
+            <div class="col-sm-3">
+                <div class="w-100 product shadow-large fragrances p-4">
                     <div class="product-img text-center">
                         <img src="img/fragrances/fg_01_maison.webp" class="img-thumbnail w-75" style="border: none;">
                     </div>
                     <div>
-                        <div class="mt-2 mb-2 text-success">
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                        </div>
-                        <h3>Text</h3>
-                        <p>R$ 0.000,00</p>
+                        <div>
+                        <div class="product-brand">Maison Margiela</div>
+                        <div>Jazz Club (100ml)</div>
+                        <div class="product-price pt-4">R$ 1.150,00</div>
+                    </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-sm">
-                <div class="w-100 product shadow-large fragrances p-4 border border-dark">
+            <div class="col-sm-3">
+                <div class="w-100 product shadow-large fragrances p-4">
                     <div class="product-img text-center">
                         <img src="img/fragrances/fg_01_tomfordneroli.webp" class="img-thumbnail w-75" style="border: none;" alt="Lemaire Signature Leather Boots">
                     </div>
                     <div>
-                        <div class="mt-2 mb-2 text-success">
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                        </div>
-                        <h3>Text</h3>
-                        <p>R$ 0.000,00</p>
+                        <div>
+                        <div class="product-brand">Tom Ford</div>
+                        <div>Neroli Portofino (100ml)</div>
+                        <div class="product-price pt-4">R$ 1.950,00</div>
+                    </div>
                     </div>
                 </div>
             </div>
 
         </div> <!-- End Row -->
-        <div class="row mt-3 mb-3">
+        <div class="row mt-3 mb-3 justify-content-center">
 
-            <div class="col-sm">
-                <div class="w-100 product shadow-medium accessories p-4 border border-dark">
+            <div class="col-sm-3">
+                <div class="w-100 product shadow-medium accessories p-4">
                     <div class="product-img text-center">
                         <img src="img/accessories/ac_01_burberry.jpg" class="img-thumbnail w-75" style="border: none;">
                     </div>
                     <div>
-                        <div class="mt-2 mb-2 text-success">
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                        </div>
-                        <h3>Text</h3>
-                        <p>R$ 0.000,00</p>
+                        <div>
+                        <div class="product-brand">Burberry</div>
+                        <div>Leather Boots</div>
+                        <div class="product-price pt-4">R$ 0.000,00</div>
+                    </div>
                     </div>
                 </div>
             </div>
             
-            <div class="col-sm">
-                <div class="w-100 product shadow-medium accessories p-4 border border-dark">
+            <div class="col-sm-3">
+                <div class="w-100 product shadow-medium accessories p-4">
                     <div class="product-img text-center">
                         <img src="img/accessories/ac_01_cappalm.webp" class="img-thumbnail w-75" style="border: none;" alt="Lemaire Signature Leather Boots">
                     </div>
                     <div>
-                        <div class="mt-2 mb-2 text-success">
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                        </div>
-                        <h3>Text</h3>
-                        <p>R$ 0.000,00</p>
+                        <div>
+                        <div class="product-brand">Palm Angels</div>
+                        <div>Leather Boots</div>
+                        <div class="product-price pt-4">R$ 0.000,00</div>
+                    </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-sm">
-                <div class="w-100 product shadow-medium accessories p-4 border border-dark">
+            <div class="col-sm-3">
+                <div class="w-100 product shadow-medium accessories p-4">
                     <div class="product-img text-center">
                         <img src="img/accessories/ac_01_gucci.webp" class="img-thumbnail w-75" style="border: none;" alt="Lemaire Signature Leather Boots">
                     </div>
                     <div>
-                        <div class="mt-2 mb-2 text-success">
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                        </div>
-                        <h3>Text</h3>
-                        <p>R$ 0.000,00</p>
+                        <div>
+                        <div class="product-brand">Gucci</div>
+                        <div>Leather Boots</div>
+                        <div class="product-price pt-4">R$ 0.000,00</div>
+                    </div>
                     </div>
                 </div>
             </div>
 
         </div> <!-- End Row -->
-        <div class="row mt-3 mb-3">
+        <div class="row mt-3 mb-3 justify-content-center">
 
-            <div class="col-sm">
-                <div class="w-100 product shadow-medium accessories p-4 border border-dark">
+            <div class="col-sm-3">
+                <div class="w-100 product shadow-medium accessories p-4">
                     <div class="product-img text-center">
                         <img src="img/accessories/ac_01_lemaire.webp" class="img-thumbnail w-75" style="border: none;">
                     </div>
                     <div>
-                        <div class="mt-2 mb-2 text-success">
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                        </div>
-                        <h3>Text</h3>
-                        <p>R$ 0.000,00</p>
+                        <div>
+                        <div class="product-brand">Lemaire</div>
+                        <div>Leather Boots</div>
+                        <div class="product-price pt-4">R$ 0.000,00</div>
+                    </div>
                     </div>
                 </div>
             </div>
             
-            <div class="col-sm">
-                <div class="w-100 product shadow-medium accessories p-4 border border-dark">
+            <div class="col-sm-3">
+                <div class="w-100 product shadow-medium accessories p-4">
                     <div class="product-img text-center">
                         <img src="img/accessories/ac_01_prada.webp" class="img-thumbnail w-75" style="border: none;" alt="Lemaire Signature Leather Boots">
                     </div>
                     <div>
-                        <div class="mt-2 mb-2 text-success">
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                        </div>
-                        <h3>Text</h3>
-                        <p>R$ 0.000,00</p>
+                        <div>
+                        <div class="product-brand">Prada</div>
+                        <div>Leather Boots</div>
+                        <div class="product-price pt-4">R$ 0.000,00</div>
+                    </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-sm">
-                <div class="w-100 product shadow-medium accessories p-4 border border-dark">
+            <div class="col-sm-3">
+                <div class="w-100 product shadow-medium accessories p-4">
                     <div class="product-img text-center">
                         <img src="img/accessories/ac_01_ringdolce.webp" class="img-thumbnail w-75" style="border: none;" alt="Lemaire Signature Leather Boots">
                     </div>
                     <div>
-                        <div class="mt-2 mb-2 text-success">
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                        </div>
-                        <h3>Text</h3>
-                        <p>R$ 0.000,00</p>
+                        <div>
+                        <div class="product-brand">Dolce & Gabbana</div>
+                        <div>Leather Boots</div>
+                        <div class="product-price pt-4">R$ 0.000,00</div>
+                    </div>
                     </div>
                 </div>
             </div>
 
         </div> <!-- End Row -->
     </div> <!-- End Container -->
-    <footer class="bg-dark text-center text-white mt-5">
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    <footer class="bg-dark text-center text-white">
+        <div class="text-center p-3">
           © 2022 Copyright:
           <a class="text-white" href="https://github.com/andrepoyer/embleded-store">github.com/andrepoyer/embleded-store</a>
         </div>

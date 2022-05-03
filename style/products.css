@@ -1,3 +1,11 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    height: auto;
+}
+
 .shadow-medium{
     transition: box-shadow 0.5s;
 }
@@ -12,4 +20,91 @@
 
 .shadow-medium:hover{
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+.product-brand {
+    font-size: 1.1rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.product-price {
+    font-style: italic;
+}
+
+.toggle {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background: url(https://i.ibb.co/HrfVRcx/menu.png);
+    background-repeat: no-repeat;
+    transition: background-size 0.2s ease-in-out;
+    background-size: 25px;
+    background-position: center;
+    cursor: pointer;
+    padding-right: 20vw;
+}
+
+.site-logo {
+    padding-left: 20vw;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  
+.dropdown-content a:hover {
+    background-color: #ddd;
+    transition: 0.4s;
+}
+
+.dropdown-content a {
+    transition: 0.4s;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+.menu-dropdown:hover .dropdown-content {display: block;}
+
+.title-products {
+    font-size: 1.6rem;
+}
+
+.text-categories {
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: 100;
+    color: rgb(31, 29, 29);
+    padding: 1px 8px;
+    border: 0.7px solid rgba(199, 199, 199, 0.664);
+    background: white;
+    transition: box-shadow 0.5s;
+}
+
+.text-categories:hover{
+    box-shadow: 0 .5rem 1rem rgba(179, 179, 179, 0.15)!important;
+    font-weight: 300;
+    color: black;
+}
+
+.text-categories:checked{
+    box-shadow: 0 .5rem 1rem rgba(129, 129, 129, 0.15)!important;
+    font-weight: 900;
+    color: green;
+}
+
+footer {
+    margin-top: 20vh;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
