@@ -1,0 +1,15 @@
+.shadow-medium{
+    transition: box-shadow 0.5s;
+}
+
+.shadow-large{
+    transition: box-shadow 0.5s;
+}
+
+.shadow-large:hover{
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+}   
+
+.shadow-medium:hover{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
