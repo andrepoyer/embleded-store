@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    height: auto;
+}
+
+footer {
+    margin-top: 20vh;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.toggle {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background: url(https://i.ibb.co/HrfVRcx/menu.png);
+    background-repeat: no-repeat;
+    transition: background-size 0.2s ease-in-out;
+    background-size: 25px;
+    background-position: center;
+    cursor: pointer;
+    padding-right: 20vw;
+}
+
+.site-logo {
+    padding-left: 20vw;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  
+.dropdown-content a:hover {
+    background-color: #ddd;
+    transition: 0.4s;
+}
+
+.dropdown-content a {
+    transition: 0.4s;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+.menu-dropdown:hover .dropdown-content {display: block;}
+
+.about-us {
+    margin-top: 20vh;
+    text-align: center;
+}
+
+.img-about {
+    opacity: 0.98;
+    box-shadow: 0px 0px 5px 5px rgba(41, 95, 212, 0.616);
+    transition: 0.5s;
+}
+
+.img-about:hover {
+    transition: 0.5s;
+    box-shadow: 0px 0px 5px 5px rgba(173, 35, 166, 0.555);
+}
+
+.text-about {
+    font-size: 0.8rem;
+    padding: 3%;
+}
+
+.about-title {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+/* MEDIA RESPONSIVE CSS */
+
+@media (max-width: 991px) {
+    .about-us {
+        margin-top: 10vh;
+    }
+    .second-img {
+        display: none;
+    }
+    .menu-dropdown:hover .dropdown-content {
+        display: inline-block;
+        margin-right: 20vw;
+    }
+    .img-about {
+        margin-top: 30px;
+    }
+    footer {
+        margin-top: 10vh;
+    }
+}
