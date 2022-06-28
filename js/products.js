@@ -1,5 +1,5 @@
 //Starting variables for every category
-var shoes = document.getElementsByClassName('shoes');
+var shoes = document.getElementsByClassName('shoes');   
 var jackets = document.getElementsByClassName('jackets');
 var fragrances = document.getElementsByClassName('fragrances');
 var shirts = document.getElementsByClassName('shirts')
@@ -85,3 +85,43 @@ function showOnly(category){
             changeDisplayToBlock(accessories);
     }
 }
+
+$(document).ready(function(e){
+    $(document).on("click", ".product", function(){
+        var request;
+        var imageUrl = $(this).children('.product-img').children('img').attr('src');
+        var brand = $(this).children('.product-placehold').children('.product-brand').html();
+        var name = $(this).children('.product-placehold').children('.product-model').html();
+        var price = $(this).children('.product-placehold').children('.product-price').html();
+
+        request = $.ajax({
+                    url: "http://127.0.0.1:5500/main.php",
+                    headers: {
+                        'Access-Control-Allow-Origin': '*',
+                        'Allow': 'POST'
+                    },
+                    method: "POST",
+                    crossOrigin: true,
+                    data: {
+                        image: imageUrl,
+                        brand: brand,
+                        name: name,
+                        price: price
+                    },
+                    success: function(e){
+                        alert('sucesso');
+                    }
+                })
+        request.done(function (response, textStatus, jqXHR){
+            console.log("Hoooray, it worked");
+        })
+
+        request.fail(function (jqXHR, textStatus, errorThrown){
+            // Log the error to the console
+            console.error(
+                "The following error occurred: "+
+                textStatus, errorThrown
+            );
+        });
+    })
+})
